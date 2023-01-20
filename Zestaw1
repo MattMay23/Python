@@ -1,0 +1,12 @@
+liczba1 = input("Podaj pierwszą liczbę: ")
+liczba2 = input("Podaj drugą liczbę: ")
+
+suma = int(liczba1) + int(liczba2)
+roznica = int(liczba1) - int(liczba2)
+iloczyn =  int(liczba1) * int(liczba2)
+iloraz = int(liczba1) / int(liczba2)
+
+print(suma)
+print(roznica)
+print(iloczyn)
+print(iloraz)
