@@ -1,0 +1,92 @@
+#Zadanie 1
+"""podaj_liczbeA = input("Proszę podać 1. liczbę: ")
+podaj_liczbeB = input("Proszę podać 2. liczbę: ")
+
+if int(podaj_liczbeA) / int(podaj_liczbeB) and int(podaj_liczbeA) % int(podaj_liczbeB) == 0:
+    print("A jest podzielne przez B")
+else:
+    print("A NIE jest podzielna przez B")"""
+#Zadanie 2 
+"""podaj_liczbe = input("Podaj swoją liczbę: ")
+
+if(int(podaj_liczbe) <= 10):
+    print("Liczba NIE jest większa niż 10")
+elif(int(podaj_liczbe) > 10 and int(podaj_liczbe) <= 25):
+    print("Liczba jest większa niż 10 ALE NIE jest większa niż 25")
+else:
+    print("Liczba jest większa niż 25")"""
+ #Zadanie 3
+ 
+ """liczba1 = input("Podaj pierwszą liczbę: ")
+liczba2 = input("Podaj drugą liczbę: ")
+liczba3 = input("Podaj trzecią liczbę: ")
+
+if int(liczba1) > int(liczba2):
+    if int(liczba1) > int(liczba3):
+        if int(liczba2>liczba3):
+            print("Liczba", liczba1, "jest największa")
+            print("Liczba",liczba2, "jest zaraz po niej")
+            print("Liczba", liczba3, "jest najmniejsza")
+        elif int(liczba2 == liczba3):
+            print("Liczba", liczba1, "jest największa")
+            print("Natomiast", liczba2, "oraz", liczba3, "są sobie równe")
+        else:
+            print("Liczba", liczba1, "jest największa")
+            print("Liczba", liczba3, "jest zaraz po niej")
+            print("Liczba", liczba2, "jest najmniejsza")
+    elif int(liczba1) == int(liczba3):
+            print("Liczba",liczba1, "oraz", liczba3,"są sobie równe")
+            print("Liczba", liczba2, "jest najmniejsza")
+    else:
+        print("Liczba",int(liczba3), "jest największa")
+        print("Liczba", int(liczba1), "jest zaraz po niej")
+        print("Liczba", int(liczba2), "jest najmniejsza")
+elif int(liczba1) < int(liczba2):
+    if int(liczba1) > int(liczba3):
+        print("Liczba", int(liczba2), "jest największa")
+        print("Liczba", int(liczba1), "jest zaraz po niej")
+        print("Liczba", int(liczba3), "jest najmniejsza")
+    elif int(liczba2) == int(liczba3):
+        print("Liczby",liczba2, "i", liczba3,"są sobie równe")
+        print("Natomiast liczba", liczba1, "jest najmniejsza")
+    elif int(liczba1 == liczba3):
+        print("Liczba", int(liczba2), "jest największa")
+        print("Liczby", liczba1, "i", liczba3, "są sobie równe")
+elif int(liczba1) == int(liczba2):
+    if int(liczba1) > int(liczba3):
+        print(("Liczby", liczba1, "oraz", liczba2, "są sobie równe"))
+        print("Liczba", liczba3,"jest najmniejsza z nich wszystkich")
+    elif int(liczba1 == liczba3):
+        print("Wszystkie liczby są sobie równe")
+    elif int(liczba1 < liczba3):
+        print("Liczba", liczba3, "jest największa")
+        print("Liczby", liczba1, "oraz", liczba2, "są sobie równe")"""
+#Zadanie4
+"""podaj_liczbe = input("Proszę podać liczbę: ")
+
+if int(podaj_liczbe) > 0:
+    print("Podana liczba jest liczbą dodatnią")
+    if int(podaj_liczbe) % 2 != 0:
+        print("Podana liczba jest podzielna przez 2 z resztą")
+    else:
+        print("Podana liczba NIE JEST podzielna przez 2 z resztą")
+elif int( podaj_liczbe) < 0:
+    print("Podana liczba NIE JEST liczbą dodatnią")
+    if int(podaj_liczbe) % 2 != 0:
+        print("Podana liczba jest podzielna przez 2 z resztą")
+    else:
+        print("Podana liczba NIE JEST podzielna przez 2 z resztą")
+else:
+    print("Zero nie jest liczbą ani dodatnią ani ujemną oraz nie ma reszty")"""
+#Zadanie5
+"""alkomat = input("Proszę dmuchnąć w alkomat: ")
+if float(alkomat) >= 0.2 and float(alkomat) <= 0.5:
+    print("Stan po spożyciu alkoholu.")
+elif float(alkomat) > 0.5:
+    print("Oj, jest Pan nietrzeźwy. Jak to 'tylko wino do obiadu'? Pół butelki już prędzej.")
+else:
+    print("Jest Pan trzeźwy, miłego dnia.")"""
+#Zadanie6
+
+
+#Zadanie7
