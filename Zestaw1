@@ -1,4 +1,5 @@
-liczba1 = input("Podaj pierwszą liczbę: ")
+#Zadanie1
+"""liczba1 = input("Podaj pierwszą liczbę: ")
 liczba2 = input("Podaj drugą liczbę: ")
 
 suma = int(liczba1) + int(liczba2)
@@ -9,4 +10,71 @@ iloraz = int(liczba1) / int(liczba2)
 print(suma)
 print(roznica)
 print(iloczyn)
-print(iloraz)
+print(iloraz)"""
+
+
+#Zadanie2
+"""liczba1 = 1.69
+liczba2 = 666
+liczba3 = 10000
+podaj_liczbe_int = input("Podaj czwartą liczbę: ")
+podaj_dzielnik = input("Podaj dzielnik: ")
+
+modulo1 = int(liczba1) % int(podaj_dzielnik)
+modulo2 = int(liczba2) % int(podaj_dzielnik)
+modulo3 = int(liczba3) % int(podaj_dzielnik)
+modulo4 = int(podaj_liczbe_int) % int(podaj_dzielnik)
+
+print(modulo1)
+print(modulo2)
+print(modulo3)
+print(modulo4)
+
+liczba1 = 1.69
+liczba2 = 666
+liczba3 = 10000
+podaj_liczbe_float = input("Podaj czwartą liczbę typu float: ")
+podaj_dzielnik_float = input("Podaj dzielnik: ")
+
+modulo_float1 = float(liczba1) % float(podaj_dzielnik_float)
+modulo_float2 = float(liczba2) % float(podaj_dzielnik_float)
+modulo_float3 = float(liczba3) % float(podaj_dzielnik_float)
+modulo_float4 = float(podaj_liczbe_float) % float(podaj_dzielnik_float)
+
+print(modulo_float1)
+print(modulo_float2)
+print(modulo_float3)
+print(modulo_float4)"""
+#Zadanie3
+
+
+
+#Zadanie4
+
+"""godzina_ile_sekund = godzina * minuty
+doba_ile_sekund = 24 * godzina_ile_sekund
+rok_ile_sekund = doba_ile_sekund * 365
+bylo_sobie_zycie = 23 * rok_ile_sekund
+print("Godzina ma", godzina_ile_sekund,"sekund")
+print("Doba ma", doba_ile_sekund,"sekund")
+print("Rok ma", rok_ile_sekund,"sekund")
+print("Moje życie trwa", bylo_sobie_zycie,"sekund" )"""
+
+#Zadanie5
+
+"""podaj_cale = input("Podaj cale: ")
+na_centymetry = float (podaj_cale) * 2.54
+print(podaj_cale, "w centymetrach to", float(na_centymetry))"""
+
+#Zadanie6
+
+"""dystans = 30
+w_czasie1 = 15
+w_czasie2 = 12
+min_na_godz1 = w_czasie1 / 60
+min_na_godz2 = w_czasie2 / 60
+srednia_predkosc1 = dystans / min_na_godz1
+srednia_predkosc2 = dystans / min_na_godz2
+
+print("Średnia prędkość pokonania 30 km w 15 minut to", int(srednia_predkosc1), "km/h")
+print("Średnia prędkość pokonania 30 km w 12 minut to", int(srednia_predkosc2), "km/h")"""
