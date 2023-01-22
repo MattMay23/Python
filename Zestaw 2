@@ -1,4 +1,5 @@
 #Zadanie 1
+
 """podaj_liczbeA = input("Proszę podać 1. liczbę: ")
 podaj_liczbeB = input("Proszę podać 2. liczbę: ")
 
@@ -6,7 +7,9 @@ if int(podaj_liczbeA) / int(podaj_liczbeB) and int(podaj_liczbeA) % int(podaj_li
     print("A jest podzielne przez B")
 else:
     print("A NIE jest podzielna przez B")"""
+    
 #Zadanie 2 
+
 """podaj_liczbe = input("Podaj swoją liczbę: ")
 
 if(int(podaj_liczbe) <= 10):
@@ -15,6 +18,7 @@ elif(int(podaj_liczbe) > 10 and int(podaj_liczbe) <= 25):
     print("Liczba jest większa niż 10 ALE NIE jest większa niż 25")
 else:
     print("Liczba jest większa niż 25")"""
+    
  #Zadanie 3
  
  """liczba1 = input("Podaj pierwszą liczbę: ")
@@ -62,6 +66,7 @@ elif int(liczba1) == int(liczba2):
         print("Liczba", liczba3, "jest największa")
         print("Liczby", liczba1, "oraz", liczba2, "są sobie równe")"""
 #Zadanie4
+
 """podaj_liczbe = input("Proszę podać liczbę: ")
 
 if int(podaj_liczbe) > 0:
@@ -78,7 +83,9 @@ elif int( podaj_liczbe) < 0:
         print("Podana liczba NIE JEST podzielna przez 2 z resztą")
 else:
     print("Zero nie jest liczbą ani dodatnią ani ujemną oraz nie ma reszty")"""
+    
 #Zadanie5
+
 """alkomat = input("Proszę dmuchnąć w alkomat: ")
 if float(alkomat) >= 0.2 and float(alkomat) <= 0.5:
     print("Stan po spożyciu alkoholu.")
@@ -86,7 +93,85 @@ elif float(alkomat) > 0.5:
     print("Oj, jest Pan nietrzeźwy. Jak to 'tylko wino do obiadu'? Pół butelki już prędzej.")
 else:
     print("Jest Pan trzeźwy, miłego dnia.")"""
-#Zadanie6
-
 
 #Zadanie7
+
+"""import math
+a = input("Podaj współczynniki, a ja wygeneruję odpowiednie równanie i obliczę je za Ciebie: ")
+b = input()
+c = input()
+rownanie_kwadratowe = float(b)*float(b) -4 * float(a) * float(c)
+if float(rownanie_kwadratowe) > 0:
+    x1 = - float(b) - math.sqrt(float(rownanie_kwadratowe))
+    x2 = - float(b) + math.sqrt(float(rownanie_kwadratowe))
+    x1 = x1 / (2*float(a))
+    x2 = x2 / (2*float(a))
+    print("Delta jest dodatnia, wynosi: ", float(rownanie_kwadratowe))
+    print("Istnieją dwa miejsca zerowe: ", round(float(x1), 2), "oraz", round(float(x2), 2))
+
+elif int(rownanie_kwadratowe) == 0:
+    print("Delta jest równa zero")
+    x0 =  - float(b)/ (2 * float(a))
+    print("Miejsca zerowe wynosi x0= ", x0)
+else:
+    print("Delta jest ujemna, zatem brak miejsc zerowych")"""
+    
+#Zadanie8
+
+"""podaj_bok1 = input("Podaj pierwszy bok: ")
+podaj_bok2 = input("Podaj drugi bok: ")
+podaj_bok3 = input("Podaj trzeci bok: ")
+if(int(podaj_bok1) > 0 and int(podaj_bok2) > 0 and int(podaj_bok3) > 0):
+    if int(podaj_bok1) > int(podaj_bok2):
+        if int(podaj_bok1) > int(podaj_bok3):
+            if int(podaj_bok2) != int(podaj_bok3):
+                kwadrat_dluzszego = int(podaj_bok1) * int(podaj_bok1)
+                kwadrat_krotszego1 = int(podaj_bok2) * int(podaj_bok2)
+                kwadrat_krotszego2 = int(podaj_bok3) * int(podaj_bok3)
+                suma_kwadratow = kwadrat_krotszego1 + kwadrat_krotszego2
+                if(suma_kwadratow == kwadrat_dluzszego):
+                    print("Trójkąt JEST prostokątny")
+                else:
+                    print("Trójkąt NIE JEST prostokątny")
+            else:
+                    print("Trójkąt NIE JEST prostokątny")
+
+    if int(podaj_bok2) > int(podaj_bok1):
+        if int(podaj_bok2) > int(podaj_bok3):
+            if int(podaj_bok1) != int(podaj_bok3):
+                kwadrat_dluzszego = int(podaj_bok2) * int(podaj_bok2)
+                kwadrat_krotszego1 = int(podaj_bok1) * int(podaj_bok1)
+                kwadrat_krotszego2 = int(podaj_bok3) * int(podaj_bok3)
+                suma_kwadratow = kwadrat_krotszego1 + kwadrat_krotszego2
+                if(suma_kwadratow == kwadrat_dluzszego):
+                    print("Trójkąt JEST prostokątny")
+                else:
+                    print("Trójkąt NIE JEST prostokątny")
+            else:
+                print("Trójkąt NIE JEST prostokątny")
+
+    if int(podaj_bok3) > int(podaj_bok1):
+        if int(podaj_bok3) > int(podaj_bok2):
+            if int(podaj_bok1) != int(podaj_bok2):
+                kwadrat_dluzszego = int(podaj_bok3) * int(podaj_bok3)
+                kwadrat_krotszego1 = int(podaj_bok1) * int(podaj_bok1)
+                kwadrat_krotszego2 = int(podaj_bok2) * int(podaj_bok2)
+                suma_kwadratow = kwadrat_krotszego1 + kwadrat_krotszego2
+                if(suma_kwadratow == kwadrat_dluzszego):
+                    print("Trójkąt JEST prostokątny")
+                else:
+                    print("Trójkąt NIE JEST prostokątny")
+            else:
+                print("Trójkąt NIE JEST prostokątny")
+
+    if int(podaj_bok1) == int(podaj_bok2) and int(podaj_bok2) == int(podaj_bok3):
+        print("Trójkąt NIE JEST prostokątny")
+    elif int(podaj_bok1) == int(podaj_bok2) and int(podaj_bok2) > int(podaj_bok3):
+        print("Trójkąt NIE JEST prostokątny")
+
+    elif int(podaj_bok1) == int(podaj_bok3) and int(podaj_bok3) > int(podaj_bok2):
+        print("Trójkąt NIE JEST prostokątny")
+    elif int(podaj_bok2) == int(podaj_bok3) and int(podaj_bok3) > int(podaj_bok1):
+        print("Trójkąt NIE JEST prostokątny")
+else:
+    print("Trójkąt NIE JEST prostokątny")"""
