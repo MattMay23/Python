@@ -1,0 +1,91 @@
+#Zadanie 1 
+"""for i in range(1,101):
+    lista =[i]
+    for elem in lista:
+        if elem % 8 == 0:
+            print(elem)"""
+#Zadanie 2
+"""twoja_liczba = input("Podaj liczbę: ")
+for i in range(int(twoja_liczba), 0, -1):
+    if i % 6 == 0 and i % 9 == 0:
+        print(i)"""
+#Zadanie 3
+"""for i in range(100, 201):
+    if i % 2 != 0 and i % 3 != 0:
+        print(i)"""
+#Zadanie 4
+"""for i in range(100, 201):
+    if i % 2 == 0 and i % 5 != 0 and i % 6 != 0 and i % 11 != 0:
+        print(i)"""
+#Zadanie 5
+"""silnia = 1
+podaj_liczbe = input("Podaj liczbę: ")
+for i in range(1, int(podaj_liczbe)+1):
+    silnia = silnia * i
+    print(silnia)"""
+#Zadanie 7
+"""potega = 1
+n_poteg = input("Podaj potęgę dwójki: ")
+for i in range(1, int(n_poteg)):
+    potega = potega * 2
+    print(potega)"""
+ #Zadanie 8
+ """schowek = []
+for i in range(1000):
+    if i % 2 != 0 and i % 3 != 0 and i % 5 != 0 and i % 7 != 0:
+        if i < 1000:
+            schowek.append(i)
+print(max(schowek))"""
+#Zadanie 9
+"""import random
+def losowanie():
+    kupon = []
+    for i in range(1,7):
+        liczba = random.randint(1,50)
+        while liczba in kupon:
+            liczba = random.randint(1,50)
+        kupon.append(liczba)
+    return kupon
+
+kupon = losowanie()
+print("Wylosowane liczby: ", kupon)"""
+#Zadanie 10
+"""import random
+def multi_multi():
+    wygrana = []
+    for y in range(1,11):
+        liczba = random.randint(1,81)
+        while liczba in wygrana:
+            liczba = random.randint(1,81)
+        wygrana.append(liczba)
+    return wygrana
+
+wygrana  = multi_multi()
+print(f"Zwycięskie liczby: ", wygrana)"""
+#Zadanie 11
+"""import random
+def mini_lotto():
+    los = []
+    for z in range(1,6):
+        liczba = random.randint(1,43)
+        while liczba in los:
+            liczba = random.randint(1,43)
+        los.append(liczba)
+    return los
+
+los = mini_lotto()
+print(los)"""
+
+#Zadanie 12
+  
+  """suma_orlow = 0
+suma_reszek = 0
+for i in range (1,51):
+    los = random.randint(0,1)
+    if los == 1:
+        suma_orlow = suma_orlow +1
+    elif los == 0:
+        suma_reszek = suma_reszek + 1
+
+print(int(suma_orlow),"-krotnie wypadł orzeł")
+print(int(suma_reszek),"-krotnie wypadła reszka")"""
