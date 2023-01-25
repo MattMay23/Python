@@ -1,0 +1,96 @@
+# Zadanie 1
+"""x = 0
+suma = 0
+srednia = 0
+ile_liczb = int(input("Podaj ile liczb wprowadzisz: "))
+for i in range(1,ile_liczb+1):
+    liczby = float(input("Podaj liczbę: "))
+    if liczby < 0:
+        continue
+    suma += liczby
+    x+=1
+    srednia = suma/x
+print(float(srednia))"""
+
+#Alternatywa z funkcją random() 
+import random
+"""x = 0
+suma = 0
+srednia = 0
+ile_liczb = int(input("Podaj ile liczb wprowadzisz: "))
+for i in range(1,ile_liczb+1):
+    liczby = float(random.randint(0,51))
+    print("Wylosowane liczby to: ",liczby)
+    if liczby < 0:
+        continue
+    suma += liczby
+    x+=1
+    srednia = suma/x
+print(float(srednia))"""
+
+#Zadanie 2
+"""przedzial = []
+suma = 0
+dzielnik = 0
+srednia = 0
+maksymalna = 0
+t = 0
+mediana = 0
+szesc_liczb = []
+pcz1 = int(input("Podaj początek przedziału: "))
+pcz2 = int(input("Podaj koniec przedziału: "))
+for i in range( pcz1, pcz2+1):
+    if pcz2 > pcz1:
+        przedzial.append(i)
+for z in range(0, 6):
+    print(przedzial[z])
+    suma += przedzial[z]
+    dzielnik += 1
+    srednia = suma / dzielnik
+    mediana = (przedzial[2] + przedzial[3])/2 #Napisałem program w taki sposób, że nie ma potrzeby zatrzymywać przy pomocy break
+
+print("Suma wynosi: ", suma)
+print("Średnia wynosi: ", srednia)
+print("Maksymalna: ", (przedzial[5]))
+print("Minimalna: ", min(przedzial))
+print("Mediana wynosi: ", mediana)"""
+#Zadanie 3
+
+#Zadanie 4
+"""podaj_liczbe = int(input("Podaj ile liczb wpiszesz: "))
+for i in range(1, podaj_liczbe+1):
+    twoje_liczby = int(input("Podaj liczbę: "))
+    if twoje_liczby >= -6 and twoje_liczby <= 6:
+        print("Twoja liczba mieści się w przedziale")
+    else:
+        print("Twoja liczba nie mieści się w przedziale")"""
+ #Zadanie 5
+ """suma_szescianow = 0
+szescian_s = 0
+ile_liczb = 0
+for s in range(0, 101):
+    szescian_s = s ** 3
+    suma_szescianow += szescian_s
+    if suma_szescianow < 1000000:
+        ile_liczb+= 1
+
+print("Suma sześcianów wynosi: ",suma_szescianow)
+if suma_szescianow > 1000000:
+    print("Potrzeba zsumować",ile_liczb,"liczb naturalnych, by przekroczyć liczbę 1 000 000 ")"""
+   #Zadanie 6
+   """import random
+jaka_liczba = random.randint(1,100)
+zgadles = 0
+print(jaka_liczba)
+for w in range(1,4):
+    podaj_liczbe = int(input("Co to za liczba 1-100? "))
+    if podaj_liczbe == jaka_liczba:
+        print("Gratulacje")
+        zgadles += 1
+        break
+    elif podaj_liczbe > jaka_liczba:
+        print("Podałeś za dużą wartość")
+    elif podaj_liczbe < jaka_liczba:
+        print("Podałeś za małą wartość")
+if zgadles == 0:
+    print("Haha przegrałeś!")"""
