@@ -1,0 +1,116 @@
+#Zadanie 1
+"""i = 0
+while i < 100:
+    print("To jest efekt pętli while")
+    i += 1
+print(i)"""
+#Zadanie 2
+"""liczba = -254
+while liczba >= -320 and liczba <= -254:
+    if int(liczba) % 2 != 0 and int(liczba) % 5 == 0:
+        print(liczba)
+        liczba = liczba - 1
+    else:
+        liczba = liczba - 1""" #dla liczby z przedziały (-254) - (-320)
+#Zadanie 3
+"""liczba = 1
+while int(liczba) % 12 != 0:
+    liczba = input("Podaj liczbę podzielną przez 12: ")
+    if int(liczba) % 12 == 0:
+        print("Podałeś liczbę podzielną przez 12, więc kończę działanie pętli")
+    else:
+        print("Podałeś liczbę NIEPODZIELNĄ przez 12. Spróbuj raz jeszcze: ")"""
+#Zadanie 4
+suma = 0
+i = 1
+srednia = 0
+podaj_wartosc = 1
+while podaj_wartosc != 0:
+    ile_wartosci = int(input("Podaj ile liczb zamierzasz wpisać: "))
+    if ile_wartosci != 0:
+        for i in range(0,ile_wartosci):
+            podaj_wartosc = int(input("Podaj liczbę: "))
+            if podaj_wartosc != 0:
+                i = i + 1
+                suma = suma + podaj_wartosc
+                srednia = suma / i
+            elif podaj_wartosc == 0 and podaj_wartosc == str:
+                input("Podałeś 0, zatem kończę program")
+                break
+    print(srednia)
+    break
+#Zadanie 5
+"""suma = 0
+srednia = 0
+i = 0
+while suma <= 100 or srednia != 66:
+    i = i + 1
+    podaj_liczbe = int(input("Podaj liczbę: "))
+    suma = suma + podaj_liczbe
+    srednia = suma / i
+    print("Suma: ",suma)
+    print("Średnia: ",srednia)
+    if suma > 100 and srednia == 66:
+        print("Suma jest większa od 100 oraz średnia jest równa 66, zatem kończę program")
+        break
+    elif suma > 100:
+        print("Suma jest większa od 100, zatem kończę program")
+        break
+    elif srednia == 66:
+        print("Średnia jest równa 66")
+        break"""
+ #Zadanie 6
+ """suma = 0
+podaj_liczbe = int(input("Podaj liczbę: "))
+for i in range(1, podaj_liczbe - 1):
+    if podaj_liczbe % i == 0:
+        suma = suma + i
+        #print(i)
+        #print("Suma: ",suma)
+if suma == podaj_liczbe:
+    print("Liczba doskonała")
+else:
+    print("Liczba niedoskonała")"""
+  #Zadanie 7
+  """podaj_liczbe = int(input("Podaj liczbę: "))
+if podaj_liczbe == 2:
+        print(podaj_liczbe, "jest liczbą pierwszą")
+for i in range(2, podaj_liczbe):
+    if podaj_liczbe % 2 != 0:
+        print(podaj_liczbe, "jest liczbą pierwszą")
+        break
+    else:
+        print(podaj_liczbe, "nie jest liczbą pierwszą")
+        break"""
+ #Zadanie 8
+ skarbonka = 0
+odsetki = 0
+wynik = 0
+odsetki = 0.08
+z = 0
+while z != 12:
+    for i in range(1,13):
+     z += 1
+     skarbonka += 333
+    odsetki = skarbonka * odsetki
+    skarbonka = skarbonka - odsetki
+print(skarbonka)
+#Zadanie 9
+
+#Zadanie 10
+"""suma = 0
+liczba_p = 0
+liczba_d = 1
+while liczba_p != liczba_d:
+    liczba_p = int(input("Podaj liczbę: "))
+    schowek1 = liczba_p
+    liczba_d = int(input("Podaj drugą liczbę: "))
+    schowek2 = liczba_d
+    schowek3 = schowek1 + schowek2
+    if(liczba_p != liczba_d):
+        suma += schowek3
+        print(suma)
+    else:
+        print(suma)
+        break"""
+  
