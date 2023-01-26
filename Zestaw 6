@@ -14,3 +14,27 @@ for i in range(1,11):
     #print(i)
 print(lista[1],lista[4],lista[7],lista[9])"""
 #Zadanie 3
+kk = 0
+lista = []
+for i in range(1,11):
+    #print(i)
+    podaj_liczbe = int(input("Podaj liczbę z przedziału: 0-59: "))
+    if podaj_liczbe >= 0 and podaj_liczbe <=59:
+        lista.append(podaj_liczbe)
+    else:
+        print("Najwidoczniej twoja liczba nie znajdowała się w wymaganym przedziale. Do widzenia.")
+        break
+x = 1
+y = 1
+z = 1
+while x % 2 != 0 and y % 2 != 0 and z % 2 != 0:
+    x = random.randint(1,50)
+    if x % 2 == 0:
+        lista.append(x)
+    y = random.randint(1,88)
+    if y % 2 == 0:
+        lista.insert(1,y)
+    z = random.randint(51,100)
+    if z % 2 == 0:
+        lista.append(z)
+print(lista)
